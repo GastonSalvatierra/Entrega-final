@@ -267,7 +267,7 @@ h1.galeria {
 @media (max-width: 426px) {
   .imagenes-galeria img {
     height: 300px;
-    width: 100%;
+    width: 96%;
   }
 }
 
