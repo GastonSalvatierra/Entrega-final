@@ -1,0 +1,77 @@
+/*------body------*/
+@import "../Parciales/media-queries";
+
+body{
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: -moz-radial-gradient(circle, rgba(0,0,0,0.7684115882681197) 0%, rgba(0,0,0,0.9000642493325455) 45%, rgba(0,0,0,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(0,0,0,0.7684115882681197) 0%, rgba(0,0,0,0.9000642493325455) 45%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(0,0,0,0.7684115882681197) 0%, rgba(0,0,0,0.9000642493325455) 45%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
+/*------navegación------*/
+
+.navbar-light .navbar-brand {
+    color: rgb(255, 255, 255);
+    font-family: 'Ephesis', cursive; 
+    font-size: 70px;
+}
+.navbar-light .navbar-brand:hover{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255, 255, 255);
+}
+.nav-link.active:hover{
+    transition: all 1s;
+    font-size: 20px;
+}
+.nav-item{
+    padding: 0rem 7rem;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: center;
+}
+/*------generalidades------*/
+
+h2{
+    color: rgb(172, 172, 172);
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: white;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin: 0rem 0rem;
+}
+.texto{
+    font-size: 1.5rem;
+    color: rgba(221, 211, 211, 0.404);
+    @include portatil-1{
+        font-size: 1rem;
+    }
+    @include tablet {
+        font-size: 0.5rem
+    }
+    @include celular {
+        font-size: 0.5rem;
+    }
+    @include celular-s {
+        font-size: 0.4rem;
+    }
+}
+.col-3{
+    padding: 0rem;
+}

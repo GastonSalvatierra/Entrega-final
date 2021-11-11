@@ -1,0 +1,26 @@
+/*------sección galería------*/
+@import "./media-queries";
+h1.galeria{
+    font-family: 'Oswald', sans-serif;
+}
+.imagenes-galeria{
+    background-image: url(../Imagenes/fondo.jpeg) ;
+    background-position: center;
+    background-size: cover;  
+}
+
+.imagenes-galeria img{
+    box-shadow: rgba(0, 0, 0, 0.911)0px 0px 90px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-sizing: content-box;
+    height: 300px;
+    width: 300px;
+    margin: 0.5rem;
+    @include portatil-1{
+        height: 300px;
+        width: 300px;
+    }
+    @include celular{
+        height: 300px;
+        width: 100%;
+    }
+}

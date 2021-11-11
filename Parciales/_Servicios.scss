@@ -1,0 +1,23 @@
+/*------sección servicios------*/
+
+.titulo-de-servicios{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    }
+    .servicio{
+        height: 100%;
+        width: 350px;
+        .img-servicios{
+            box-shadow: rgba(0, 0, 0, 0.911)0px 0px 90px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        height: 30rem;
+        width: 100%;
+        }
+    }
+.contenedor-serv{
+    padding: 3rem;
+    background-image: url(../Imagenes/fondo.jpeg) ;
+    background-position: center;
+    background-size: cover;   
+    
+}

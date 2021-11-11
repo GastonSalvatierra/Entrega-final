@@ -1,0 +1,345 @@
+@charset "UTF-8";
+/*------body------*/
+body {
+  height: 100vh;
+  background: black;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.768412) 0%, rgba(0, 0, 0, 0.900064) 45%, black 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
+/*------navegación------*/
+.navbar-light .navbar-brand {
+  color: white;
+  font-family: 'Ephesis', cursive;
+  font-size: 70px;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+}
+
+.nav-link.active:hover {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  font-size: 20px;
+}
+
+.nav-item {
+  padding: 0rem 7rem;
+}
+
+.navbar-collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*------generalidades------*/
+h2 {
+  color: #acacac;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+p {
+  font-size: 1rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  color: white;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0rem 0rem;
+}
+
+.texto {
+  font-size: 1.5rem;
+  color: rgba(221, 211, 211, 0.404);
+}
+
+@media (max-width: 1024px) {
+  .texto {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .texto {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .texto {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .texto {
+    font-size: 0.4rem;
+  }
+}
+
+.col-3 {
+  padding: 0rem;
+}
+
+/*------sección index------*/
+.navbar-light .navbar-toggler-icon {
+  background-image: url(https://th.bing.com/th/id/OIP.mcRBPQNgjpICYSCV2BRK2wHaHa?pid=ImgDet&w=400&h=400&rs=1);
+}
+
+@media (max-width: 1378px) {
+  .nav-item {
+    padding: 0rem 5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-item {
+    padding: 0rem 3rem;
+  }
+}
+
+h1.index {
+  width: 70%;
+  z-index: 1;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 4rem;
+  color: #201f1f;
+}
+
+@media (max-width: 1378px) {
+  h1.index {
+    margin-top: 600px;
+    font-size: 40px;
+    margin-left: 26px;
+  }
+}
+
+@media (max-width: 1024px) {
+  h1.index {
+    margin-top: 600px;
+    font-size: 30px;
+    margin-left: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1.index {
+    margin-top: 500px;
+    font-size: 30px;
+    margin-left: 26px;
+  }
+}
+
+@media (max-width: 426px) {
+  h1.index {
+    margin-top: 400px;
+    font-size: 15px;
+    margin-left: 26px;
+  }
+}
+
+/*------carousel index------*/
+.img-index {
+  height: 45rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .img-index {
+    height: 650px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 426px) {
+  .img-index {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 426px) {
+  .carousel-item {
+    height: 25rem;
+    width: 100%;
+  }
+}
+
+/*------sección servicios------*/
+.titulo-de-servicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.servicio {
+  height: 100%;
+  width: 350px;
+}
+
+.servicio .img-servicios {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.911) 0px 0px 90px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.911) 0px 0px 90px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 30rem;
+  width: 100%;
+}
+
+.contenedor-serv {
+  padding: 3rem;
+  background-image: url(../Imagenes/fondo.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+/*------sección galería------*/
+h1.galeria {
+  font-family: 'Oswald', sans-serif;
+}
+
+.imagenes-galeria {
+  background-image: url(../Imagenes/fondo.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.imagenes-galeria img {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.911) 0px 0px 90px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.911) 0px 0px 90px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 300px;
+  width: 300px;
+  margin: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .imagenes-galeria img {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 426px) {
+  .imagenes-galeria img {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+/*------sección adn------*/
+.contenedor-adn {
+  background-image: url(../Imagenes/fondo.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.parrafos {
+  padding: 2rem 10rem;
+  text-align: center;
+}
+
+@media (max-width: 426px) {
+  .parrafos {
+    padding: 0rem 0rem;
+  }
+}
+
+.contenedor-adn {
+  margin: 0px 0px;
+  padding: 1rem;
+}
+
+/*------sección contacto------*/
+h1.cont {
+  font-family: 'Oswald', sans-serif;
+}
+
+.form-label {
+  color: white;
+}
+
+.form-check-label {
+  color: white;
+}
+
+.info {
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.col-4 {
+  width: 50%;
+}
+
+@media (max-width: 426px) {
+  .col-4 {
+    width: 100%;
+  }
+}
+
+.info {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .info {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .info {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .col-6 {
+    width: 100%;
+  }
+}
+
+.contenedor-cont {
+  padding: 8rem 0rem;
+  background-image: url(../Imagenes/fondo.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */

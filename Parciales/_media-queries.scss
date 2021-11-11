@@ -1,0 +1,27 @@
+
+
+@mixin celular-s {
+    @media(max-width:320px) {
+        @content;
+    }
+}
+@mixin celular{
+    @media(max-width:426px) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media(max-width:768px) {
+        @content;
+    }
+}
+@mixin portatil-1 {
+    @media(max-width:1024px) {
+        @content;
+    }
+}
+@mixin portatil-2 {
+    @media(max-width:1378px) {
+        @content;
+    }
+}

@@ -1,0 +1,43 @@
+/*------sección contacto------*/
+h1.cont{
+    font-family: 'Oswald', sans-serif;
+}
+.form-label{
+    color:rgb(255, 255, 255);
+}
+.form-check-label{
+    color: rgb(255, 255, 255);
+}
+.info{
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    font-size: 2rem;
+}
+.col-4{
+    width: 50%;
+    @include celular{
+        width: 100%;
+    }
+}
+.info{
+    font-size: 1rem;
+    @include tablet{
+        font-size: 1rem;
+    }
+    @include celular{
+        font-size: 1rem;
+    }
+
+}
+.col-6{
+    
+    @include celular{
+        width: 100%;
+    }
+}
+.contenedor-cont{
+    padding: 8rem 0rem;
+    background-image: url(../Imagenes/fondo.jpeg) ;
+    background-position: center;
+    background-size: cover;  
+}

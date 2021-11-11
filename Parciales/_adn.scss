@@ -1,0 +1,17 @@
+/*------sección adn------*/
+.contenedor-adn{
+    background-image: url(../Imagenes/fondo.jpeg) ;
+    background-position: center;
+    background-size: cover;   
+}
+.parrafos{
+    padding: 2rem 10rem;
+    text-align: center;
+    @include celular{
+        padding: 0rem 0rem;
+    }
+}
+.contenedor-adn{
+    margin: 0px 0px;
+    padding: 1rem;
+}
