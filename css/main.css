@@ -127,6 +127,15 @@ h1 {
   }
 }
 
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.col-md-12 {
+  padding: 0%;
+}
+
 h1.index {
   width: 70%;
   z-index: 1;
@@ -135,7 +144,7 @@ h1.index {
   margin-left: 100px;
   font-family: 'Oswald', sans-serif;
   font-size: 4rem;
-  color: #201f1f;
+  color: #ffefef;
 }
 
 @media (max-width: 1378px) {
